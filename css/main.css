@@ -1,0 +1,38 @@
+/* Asignamos el css manual para cada uno de los botones */
+.calc{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 340px;
+    height: 500px;
+    border-radius: 25px;
+    background-color:#343A40;
+    margin-top: 2em;
+    
+}
+.calc td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #ffffff;
+    border-radius: 25px;
+    overflow-y: scroll;
+
+   
+}
+body{
+    background-image: url(https://images.pexels.com/photos/518245/pexels-photo-518245.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    
+}
